@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assests/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+<!-- navigation -->
+  <nav class="navbar sticky-top navbar-expand-lg" style="background-color: #89CFF3;">
+    <!-- container fluid -->
+    <div class="container-fluid">
+      <!-- branding -->
+      <a href="#" class="navbar-brand"><i class="fa-solid fa-handshake-angle me-1"></i>CONNECT</a>
+      <!-- button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- button ends -->
+      <!-- navbar -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <!-- unordered list -->
+        <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+          <!-- home -->
+          <li class="nav-item">
+            <a href="#Home" class="nav-link active">Home</a>
+          </li>
+          <!-- register -->
+          <li class="nav-item">
+            <a href="#Register" class="nav-link">Register</a>
+          </li>
+          <!-- about us -->
+          <li class="nav-item">
+            <a href="#aboutus" class="nav-link">About Us</a>
+          </li>
+          <!-- contact us -->
+          <li class="nav-item">
+            <a href="#contactus" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <!-- unordered list ends -->
+
+      </div>
+      <!-- navbar -->
+    </div>
+    <!-- container-fluid -->
+  </nav>
+  <!-- navigation ends -->
+
+
+
+  <!-- Home page content -->
+  <!-- header container starts -->
+  <header class="container text-center mt-2" id="Home"><br><br><br>
+    <!-- define a row -->
+    <div class="row justify-content-center align-items-center">
+      <!-- col-6 created -->
+      <div class="col-md-6 mt-5">
+        <!-- display heading  -->
+        <div class="h6 mt-4  display-5">Welcome to connect!!!</div>
+        <!-- importantpoints in blockquotes -->
+        <blockquote class="blockquote">
+          <p>If you're socially responsible it's a time to start your work against difficulty.</p>
+        </blockquote>
+        <!-- leading paragragh -->
+        <div>
+          <p class="lead ">Volunteering is at the very core of being a human
+            and it is the voice of the people put into action.
+          </p>
+        </div>
+        <!-- paragragh ends -->
+      </div>
+      <!-- col-6 ends -->
+      <!-- col-6 starts -->
+      <div class="col-md-6 card mb-3  ">
+        <!-- image inserted from unsplash -->
+        <br><img
+          src="https://images.unsplash.com/photo-1461532257246-777de18cd58b?auto=format&fit=crop&q=80&w=1176&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="card-img-top mt-2" alt=" image">
+          <!-- card body starts -->
+        <div class="card-body">
+          <!-- card title -->
+          <h5 class="card-title">Connect Volunteers </h5>
+          <!-- card text -->
+          <p class="card-text">Join with us.</p>
+          <!-- button -->
+          <a href="#Register" class="btn btn-primary">Register</a>
+
+        </div>
+        <!-- card body ends -->
+
+      </div>
+      <!-- col-6 ends -->
+    </div>
+    <!-- row ends -->
+    
+
+  </header>
+  <!-- header ends -->
+
+
+
+<!-- Registration page content -->
+<!-- header starts -->
+  <header class="container text-center  " id="Register">
+    <!-- row starts -->
+    <div class="row justify-content-center">
+      <!-- col-6 starts -->
+      <div class="col-md-6">
+        <!-- Display heading 5 -->
+        <div class="h6 mt-5  display-5">REGISTRATION</div>
+
+       
+      </div>
+      <!-- col-6 ends -->
+      <!-- another col 6 starts -->
+      <div class="col-md-6 card mb-2 mt-5 ">
+       <!-- cardbody starts -->
+        <div class="card-body">
+          <!-- card title -->
+          <h5 class="card-title">REGISTER </h5>
+          <!-- form  -->
+          <form action="#">
+              <!-- input name -->
+            <div class="mb-3">
+              <label for="fn" class="form-label">Name</label>
+              <input type="text" name="fn" id="fn" class="form-control" placeholder="Enter your name">
+            </div>
+            <!-- input mail id -->
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Mail Address">
+            </div>
+            <!-- input tel -->
+            <div class="mb-3">
+              <label for="tel" class="form-label">Mobile no</label>
+              <input type="tel" name="tel" id="tel" class="form-control" placeholder="Enter your number">
+            </div>
+            <!-- input checkbox -->
+            <div class="mb-3">
+              <div class="form-text">Are you sure to be volunteer ?
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    Agree..
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- input button -->
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+  
+          </form>
+          <!-- form ends -->
+
+        </div>
+        <!-- card body ends -->
+      </div>
+      <!-- row ends -->
+    </div>
+    
+
+  </header>
+  <!-- header ends -->
+
+
+
+
+  <!-- About us page content -->
+
+  <!-- section starts-->
+  <section class="container text-center  " id="aboutus"><br><br>
+    <!-- create a card -->
+    <div class="card border-dark mt-5 mb-3" >
+      <!-- row starts -->
+      <div class="row g-0">
+        <!-- 4 col starts -->
+        <div class="col-md-4">
+          <!-- place a image -->
+          <img src="https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dm9sdW50ZWVyfGVufDB8fDB8fHww" class="img-fluid rounded-start" alt="image">
+        </div>
+        <!-- 4 col ends -->
+
+        <!-- 8 col starts -->
+        <div class="col-md-8">
+          <!-- card body -->
+          <div class="card-body mt-5">
+            <!-- card title -->
+            <h5 class="card-title ">ABOUT US</h5>
+            <!-- card text -->
+            <p class="card-text">At Connecting Volunteers, we are on a mission to make a difference in the world by bridging the gap between people who are eager to help and the organizations that need their support. Our passion for positive change is what drives us to create a platform that brings together volunteers. </p>
+
+            <!-- card title -->
+            <h5 class="card-title mt-4">JOIN US TO MAKE DIFFERENCE</h5>
+            <!-- card text -->
+            <p class="card-text">
+              Whether you're an individual seeking volunteer opportunities or an organization in need of dedicated volunteers, we invite you to join us in our mission. No matter how small, can spark positive change.
+            </p>
+            
+            
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- 8 col ends -->
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- card ends -->
+  </section>
+  <!-- section layout ends -->
+
+  <!-- contact us page content -->
+  <!-- section starts -->
+  <section class="container text-center mt-5 mb-3" id="contactus">
+    <!-- contact heading -->
+    <div class="h6 display-5 mb-4">CONTACT US</div>
+    <!-- heading ends -->
+
+    <!-- row starts -->
+    <div class="row">
+     <!-- col-4 starts -->
+      <div class="col-md-4">
+        <!-- card -->
+        <div class="card mb-3">
+          <!-- card-title -->
+          <div class="card-title mt-4">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <!-- card body -->
+          <div class="card-body">
+            <!-- card text -->
+            <p class="card-text">I'm Hambrish founder of connecting volunteers.You may follow on instagram and ask your queries.</p>
+            <!-- anchor tag -->
+            <a href="https://instagram.com/_.mr._.lucky._.known._?igshid=OGQ5ZDc2ODk2ZA==" class="btn btn-primary"><i class="fa-brands fa-instagram me-1"></i>Instagram</a>
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col-4 ends -->
+
+       <!-- col-4 starts -->
+       <div class="col-md-4">
+        <!-- card -->
+        <div class="card mb-3">
+          <!-- card-title -->
+          <div class="card-title mt-4">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <!-- card body -->
+          <div class="card-body">
+            <!-- card text -->
+            <p class="card-text">I'm Hambrish founder of connecting volunteers.You may follow on facebook and ask your queries.</p>
+            <!-- anchor tag -->
+            <a href="https://www.facebook.com/profile.php?id=100040852326673&mibextid=ZbWKwL" class="btn btn-primary"><i class="fa-brands fa-facebook me-1"></i>Facebook</a>
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col-4 ends -->
+      <!-- col-4 starts -->
+      <div class="col-md-4">
+        <!-- card -->
+        <div class="card ">
+          <!-- card-title -->
+          <div class="card-title mt-4">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <!-- card body -->
+          <div class="card-body">
+            <!-- card text -->
+            <p class="card-text">I'm Hambrish founder of connecting volunteers.You may send email to me and ask your queries.</p>
+            <!-- anchor tag -->
+            <a href="hambrish9507@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope me-1"></i>Email</a>
+          </div>
+          <!-- card body ends -->
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col-4 ends -->
+    </div>
+    <!-- row ends -->
+  </section>
+  <!-- section ends -->
+
+<!-- footer -->
+<footer>
+  <div class="text-muted">
+    <p class="text-center">&#169;Copyrights by CV Co-operation Act by 1999.</p>
+  </div>
+</footer>
+ 
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="./assests/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
